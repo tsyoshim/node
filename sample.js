@@ -5,4 +5,4 @@ http.createServer(function (request, response) {
   response.end('Hello World\n');
 }).listen(8124);
 
-console.log('Server running at http://192.168.3.5:8124/');
+console.log('Server running at http://localhost:8124/');
